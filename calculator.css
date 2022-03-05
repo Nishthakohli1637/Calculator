@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+#container{
+    width: 1000px;
+    height: 650px;
+    background-image: url('https://www.lifewire.com/thmb/BqVmccXOF-S9bIU-ifvkj8eWTzY=/1500x893/filters:fill(auto,1)/GettyImages-486840926-424eecdec9d94ca2a12401816cb2ab12.jpg');
+    margin: 40px auto;
+}
+#calculator{
+    width: 350px;
+    height: 600px;
+    background-color: aliceblue;
+    margin: 10px auto;
+    top: 20px;
+    position: relative;
+}
+#result{
+    height: 170px;
+}
+#keyboard{
+    height: 4200px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 17px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.number,.operator{
+    cursor: pointer;
+}
+button:nth-child(1){
+    background-color: orange;
+}
+button:nth-child(2){
+    background-color: orange;
+}
+button:nth-child(3){
+    background-color: orange;
+}
+button:nth-child(4){
+    background-color: orange;
+}
+button:nth-child(8){
+    background-color: orange;
+}
+button:nth-child(12){
+    background-color: orange;
+}
+button:nth-child(16){
+    background-color: orange;
+}
+button:nth-child(20){
+    background-color: orange;
+}
